@@ -1,0 +1,42 @@
+.ancestor {
+  height: 400px;
+  width: 400px;
+  background-color: green;
+}
+
+.parent {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.list {
+  list-style: none;
+  width: 50%;
+  border: 1px solid black;
+  padding: 0;
+}
+
+li {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+form {
+  margin: 40px;
+}
+
+#error {
+  display: none;
+  color: red;
+}

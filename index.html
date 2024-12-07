@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="events.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="ancestor">
+        <div class="parent">
+          <div class="child"></div>
+        </div>
+      </div>
+
+      <form action="">
+        <label for="firstName">First Name:</label>
+        <input id="firstName" name="firstName" type="text" />
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" name="lastName" type="text" />
+        <button type="submit">Submit</button>
+      </form>
+      <p id="error"></p>
+      <ul id="list" class="list">
+        <li>
+          <h2>Item1</h2>
+          <p>Description</p>
+        </li>
+        <li>
+          <h2>Item2</h2>
+          <p>Description</p>
+        </li>
+        <li>
+          <h2>Item3</h2>
+          <p>Description</p>
+        </li>
+        <li>
+          <h2>Item4</h2>
+          <p>Description</p>
+        </li>
+        <li>
+          <h2>Item5</h2>
+          <p>Description</p>
+        </li>
+      </ul>
+      <button id="btn" class="btn">Click me</button>
+    </main>
+  </body>
+</html>
